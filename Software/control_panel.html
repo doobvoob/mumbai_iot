@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Tab Example</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    body{
+      background: white;
+    }
+    a{
+    color: #33b5e5;
+    text-decoration: none !important;
+    }
+    a:hover{
+    color: black !important;  
+    }
+   .abc {
+       margin: 15px;
+       margin-left: 275px;
+       margin-top: 175px;
+       padding: 15px;
+       border: 1px solid #33b5e5;
+       width: 225px;
+       font-size: 24px;
+       float: left;
+       align-content: center;
+    }
+    .website-name{
+    margin-top: 2%;
+    }
+    }
+</style>
+</head>
+<body>
+   <div class="container-fluid">
+   <h2 class="website-name" style="color: #33b5e5;"><a href="index.html">IOT Mumbai</a></h2>
+   </div>
+   <nav class="navbar navbar-default" style="background-color:#eee; width: 100%;">
+    <div class="collapse navbar-collapse col-sm-12" id="Target">
+             <ul class="nav navbar-nav">
+    			<li style=" border-bottom: 1px solid blue;"><a href="control_panel.html" style="color: #33b5e5; font-size: 18px;">Control Panel</a></li>
+    			<li><a href="inventory_manager.php" style="color: #33b5e5; font-size: 18px;">Inventory Manager</a></li>
+    			<li><a href="asset_tracking.php" style="color:#33b5e5; font-size: 18px;">Asset Tracking</a></li>
+    		</ul>
+    </div>
+  </nav>
+<a href = "control.php"><div class="abc">Smart<br> Light</div></a>
+<a href = "stemp.php?temp=1"><div class="abc" style="">Smart <br>Temperature</div></a>
+</body>
+</html>
